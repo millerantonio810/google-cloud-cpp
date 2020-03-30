@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:google-cloud-status:feed</id>
+  <link rel="self" href="https://status.cloud.google.com/feed.atom" />
+  <link rel="alternate" type="text/html" href="https://status.cloud.google.com" />
+  <updated>2020-03-26T22:14:28Z</updated>
+  <author>
+    <name>Google Cloud Platform</name>
+  </author>
+  <title>Google Cloud Status Dashboard Updates</title>
+  
+    <entry>
+      <title>RESOLVED: Incident 20002 - We believe that the issue with Google Cloud infrastructure components has been mitigated. We are continuing to actively monitor the situation.</title>
+      <link href="http://status.cloud.google.com/incident/zall/20002#20002006" />
+      <content type="html">Some of our users experienced a service disruption today, as a result of a significant router failure at 08:18am Pacific in one of our data centers in Atlanta, causing network congestion. As a result, Google services running in that data center were directly impacted and were unavailable until our engineers rerouted the traffic and moved those services to alternate facilities. Users in the South Eastern US may also have seen temporary difficulties in accessing a wider range of Google services due to the network congestion.
+
+The majority of directly impacted Google services were moved to alternative data centers by 08:50am Pacific, and networking impact was mitigated by 09:21am Pacific, with some services taking longer to recover.
+
+The root cause of the problem was a failure of networking devices at our Atlanta datacenter site. We are working on mitigating the issue and taking steps to avoid a recurrence.</content>
+      <updated>2020-03-26T20:10:10Z</updated>
+      <id>urn:google-cloud-status:20002.20002006</id>
+    </entry>
+  
+    <entry>
+      <title>RESOLVED: Incident 20002 - We believe that the issue with Google Cloud infrastructure components has been mitigated. We are continuing to actively monitor the situation.</title>
+      <link href="http://status.cloud.google.com/incident/zall/20002#20002005" />
+      <content type="html">The issue with Google Cloud infrastructure components has been resolved for all affected users as of 09:21. Total time of impact was 08:18 to 09:21 US/Pacific, with the most severe impact at the start of the issue, tapering off as services routed traffic away from Atlanta.
+
+The impact of this incident was concentrated in a region that is not a main GCP region and therefore there was no impact to services based on Google Compute Engine. Services that may have been impacted include External HTTP/S Load balancing requests and API requests that may have been served near the Atlanta metro.
+
+The root cause was a set of router failures in Atlanta, which affected traffic routed through that region.</content>
+      <updated>2020-03-26T17:38:39Z</updated>
+      <id>urn:google-cloud-status:20002.20002005</id>
+    </entry>
+  
+    <entry>
+      <title>RESOLVED: Incident 20002 - We believe that the issue with Google Cloud infrastructure components has been mitigated. We are continuing to actively monitor the situation.</title>
+      <link href="http://status.cloud.google.com/incident/zall/20002#20002004" />
+      <content type="html">Description: We believe the issue with Google Cloud infrastructure components is mitigated, and we are continuing to actively monitor the situation.
+
+We will provide an update by Thursday, 2020-03-26 12:00 US/Pacific with current details.
+
+Diagnosis: None at this time
+
+Workaround: None at this time</content>
+      <updated>2020-03-26T17:17:01Z</updated>
+      <id>urn:google-cloud-status:20002.20002004</id>
+    </entry>
+  
+    <entry>
+      <title>RESOLVED: Incident 20002 - We believe that the issue with Google Cloud infrastructure components has been mitigated. We are continuing to actively monitor the situation.</title>
+      <link href="http://status.cloud.google.com/incident/zall/20002#20002003" />
+      <content type="html">Description: We believe the issue with Google Cloud infrastructure components is mitigated, and we are continuing to actively monitor the situation.
+
+We will provide an update by Thursday, 2020-03-26 10:15 US/Pacific with current details.
+
+Diagnosis: None at this time
+
+Workaround: None at this time</content>
+      <updated>2020-03-26T16:38:30Z</updated>
+      <id>urn:google-cloud-status:20002.20002003</id>
+    </entry>
+  
+    <entry>
+      <title>RESOLVED: Incident 20002 - We believe that the issue with Google Cloud infrastructure components has been mitigated. We are continuing to actively monitor the situation.</title>
+      <link href="http://status.cloud.google.com/incident/zall/20002#20002002" />
+      <content type="html">Description: We believe the issue with Google Cloud infrastructure components is partially resolved and recovery is beginning.
+
+We do not have an ETA for full resolution at this point.
+
+We will provide an update by Thursday, 2020-03-26 10:00 US/Pacific with current details.
+
+Diagnosis: None at this time
+
+Workaround: None at this time</content>
+      <updated>2020-03-26T16:32:52Z</updated>
+      <id>urn:google-cloud-status:20002.20002002</id>
+    </entry>
+  
+    <entry>
+      <title>UPDATE: Incident 20002 - We believe that the issue with Google Cloud infrastructure components has been mitigated. We are continuing to actively monitor the situation.</title>
+      <link href="http://status.cloud.google.com/incident/zall/20002#20002001" />
+      <content type="html">Description: We are experiencing an issue with Google Cloud infrastructure components.
+
+Our engineering team continues to investigate the issue.
+
+We will provide an update by Thursday, 2020-03-26 09:30 US/Pacific with current details.
+
+We apologize to all who are affected by the disruption.
+
+
+Diagnosis: None at this time
+
+Workaround: None at this time</content>
+      <updated>2020-03-26T16:08:20Z</updated>
+      <id>urn:google-cloud-status:20002.20002001</id>
+    </entry>
+  
+    <entry>
+      <title>RESOLVED: Incident 20001 - Cloud AI Online Prediction requests failing.</title>
+      <link href="http://status.cloud.google.com/incident/cloud-ml/20001#20001002" />
+      <content type="html">The issue with Cloud AI has been resolved for all affected projects as of Thursday, 2020-03-12 18:19 US/Pacific.
+
+We thank you for your patience while we&#39;ve worked on resolving the issue.</content>
+      <updated>2020-03-13T01:19:44Z</updated>
+      <id>urn:google-cloud-status:20001.20001002</id>
+    </entry>
+  
+    <entry>
+      <title>UPDATE: Incident 20001 - Cloud AI Online Prediction requests failing.</title>
+      <link href="http://status.cloud.google.com/incident/cloud-ml/20001#20001001" />
+      <content type="html">Description: We are experiencing an issue with Cloud AI. The Online Prediction requests failing.
+
+Symptoms: requests failing.
+
+Our engineering team continues to investigate the issue.
+
+We will provide an update by Thursday, 2020-03-12 19:00 US/Pacific with current details.
+
+We apologize to all who are affected by the disruption.
+
+Workaround: None at this time.</content>
+      <updated>2020-03-13T00:54:40Z</updated>
+      <id>urn:google-cloud-status:20001.20001001</id>
+    </entry>
+  
+    <entry>
+      <title>RESOLVED: Incident 20001 - BigQuery API requests return errors intermittently in europe-west2</title>
+      <link href="http://status.cloud.google.com/incident/bigquery/20001#20001006" />
+      <content type="html">The issue with Google BigQuery has been resolved for all affected projects as of Sunday, 2020-03-08 12:39 US/Pacific.
+
+We thank you for your patience while we&#39;ve worked on resolving the issue.
+
+This issue has been mitigated as of Sunday, 2020-03-08 10:30 US/Pacific and no further errors have been detected.
+
+Please contact Google Cloud Support for further assistance.</content>
+      <updated>2020-03-08T19:40:35Z</updated>
+      <id>urn:google-cloud-status:20001.20001006</id>
+    </entry>
+  
+    <entry>
+      <title>RESOLVED: Incident 20001 - BigQuery API requests return errors intermittently in europe-west2</title>
+      <link href="http://status.cloud.google.com/incident/bigquery/20001#20001005" />
+      <content type="html">Description: We are experiencing an intermittent issue with Google BigQuery in europe-west2, beginning on Sunday, 2020-03-08 03:00 US/Pacific.
+
+Symptoms: Elevated errors are occurring intermittently across many BQ APIs, but most common in TableService, DatasetService, and JobService operations. to the BigQuery API in europe-west2.
+
+Mitigation efforts are in place and we are seeing error rates return to normal levels starting 2020-03-08 10:30 PST.
+
+We will provide an update by Sunday, 2020-03-08 14:30 US/Pacific with current details.
+
+Diagnosis: Customers may experience intermittent elevated errors from the BigQuery API in europe-west2, especially TableService, DatasetService, and JobService operations
+
+Workaround: If possible, retry requests to the API.</content>
+      <updated>2020-03-08T18:09:00Z</updated>
+      <id>urn:google-cloud-status:20001.20001005</id>
+    </entry>
+  
+    <entry>
+      <title>UPDATE: Incident 20001 - BigQuery API requests return errors intermittently in europe-west2</title>
+      <link href="http://status.cloud.google.com/incident/bigquery/20001#20001004" />
+      <content type="html">Description: We are experiencing an intermittent issue with Google BigQuery, beginning on Sunday, 2020-03-08 03:00 US/Pacific.
+
+Symptoms: Elevated errors are occurring intermittently across many BQ APIs, but most common in TableService, DatasetService, and JobService operations. to the BigQuery API in europe-west2.
+
+We are working towards identifying a root cause.
+
+We will provide an update by Sunday, 2020-03-08 11:30 US/Pacific with current details.
+
+We apologize to all who are affected by the disruption.
+
+Diagnosis: Customers may experience intermittent elevated errors from the BigQuery API in europe-west2, especially TableService, DatasetService, and JobService operations
+
+Workaround: If possible, retry requests to the API.</content>
+      <updated>2020-03-08T17:07:20Z</updated>
+      <id>urn:google-cloud-status:20001.20001004</id>
+    </entry>
+  
+    <entry>
+      <title>UPDATE: Incident 20001 - BigQuery API requests return errors intermittently in europe-west2</title>
+      <link href="http://status.cloud.google.com/incident/bigquery/20001#20001003" />
+      <content type="html">Description: We are experiencing an intermittent issue with Google BigQuery, beginning at Sunday, 2020-03-08 03:00 US/Pacific.
+
+Symptoms: Intermittent errors for requests to the BigQuery API in europe-west2.
+
+A possible root cause has been identified, and the engineering team is working on mitigating the issue.
+
+We will provide an update by Sunday, 2020-03-08 10:30 US/Pacific with current details.
+
+We apologize to all who are affected by the disruption.
+
+Diagnosis: Customers may experience intermittent elevated errors from the BigQuery API in europe-west2.
+
+Workaround: If possible, retry requests to the API.</content>
+      <updated>2020-03-08T15:32:49Z</updated>
+      <id>urn:google-cloud-status:20001.20001003</id>
+    </entry>
+  
+    <entry>
+      <title>UPDATE: Incident 20001 - BigQuery API requests return errors intermittently in europe-west2</title>
+      <link href="http://status.cloud.google.com/incident/bigquery/20001#20001002" />
+      <content type="html">Description: We are experiencing an intermittent issue with Google BigQuery, beginning at Sunday, 2020-03-08 03:00 US/Pacific.
+
+Symptoms: Intermittent errors for requests to the BigQuery API in europe-west2.
+
+Our engineering team continues to investigate the issue.
+
+We will provide an update by Sunday, 2020-03-08 08:30 US/Pacific with current details.
+
+We apologize to all who are affected by the disruption.
+
+Diagnosis: Customers may experience intermittent elevated errors from the BigQuery API in europe-west2.
+
+Workaround: If possible, retry requests to the API.</content>
+      <updated>2020-03-08T13:35:11Z</updated>
+      <id>urn:google-cloud-status:20001.20001002</id>
+    </entry>
+  
+    <entry>
+      <title>UPDATE: Incident 20001 - BigQuery API requests return errors intermittently in europe-west2</title>
+      <link href="http://status.cloud.google.com/incident/bigquery/20001#20001001" />
+      <content type="html">Description: We are experiencing an intermittent issue with Google BigQuery, beginning at Sunday, 2020-03-08 03:00 US/Pacific.
+
+Symptoms: Intermittent errors for requests to the BigQuery API in europe-west2.
+
+Our engineering team continues to investigate the issue.
+
+We will provide an update by Sunday, 2020-03-08 06:30 US/Pacific with current details.
+
+We apologize to all who are affected by the disruption.
+
+Diagnosis: Customers may experience intermittent elevated errors from the BigQuery API in europe-west2.
+
+Workaround: None at this time</content>
+      <updated>2020-03-08T12:33:34Z</updated>
+      <id>urn:google-cloud-status:20001.20001001</id>
+    </entry>
+  
+    <entry>
+      <title>RESOLVED: Incident 20003 - We are investigating an alerting issue in Stackdriver Monitoring</title>
+      <link href="http://status.cloud.google.com/incident/google-stackdriver/20003#20003003" />
+      <content type="html">The issue with Stackdriver Monitoring has been resolved for all affected users as of Thursday, 2020-02-27 18:01 US/Pacific.
+
+We thank you for your patience while we&#39;ve worked on resolving the issue.</content>
+      <updated>2020-02-28T02:06:13Z</updated>
+      <id>urn:google-cloud-status:20003.20003003</id>
+    </entry>
+  
+    <entry>
+      <title>UPDATE: Incident 20003 - We are investigating an alerting issue in Stackdriver Monitoring</title>
+      <link href="http://status.cloud.google.com/incident/google-stackdriver/20003#20003002" />
+      <content type="html">Description: We are experiencing an issue with Stackdriver Monitoring.
+
+Symptoms: Some alerting policies are not being evaluated.
+
+Our engineering team continues to investigate the issue.
+
+We will provide an update by Thursday, 2020-02-27 18:10 US/Pacific with current details.
+
+Diagnosis: Users with alerting policies that aggregate away all resource labels for certain resource types may be affected: gce_instance, gae_app, cloud_tasks_queue, cloudsql_database, gce_disk, vpn_gateway, pubsub_topic, pubsub_subscription, pubsub_snapshot.
+
+Workaround: Adding a resource label, for instance project_id, to the Group By fields in the condition will enable the alerting policies to be evaluated.</content>
+      <updated>2020-02-28T01:36:42Z</updated>
+      <id>urn:google-cloud-status:20003.20003002</id>
+    </entry>
+  
+    <entry>
+      <title>UPDATE: Incident 20003 - We are investigating an alerting issue in Stackdriver Monitoring</title>
+      <link href="http://status.cloud.google.com/incident/google-stackdriver/20003#20003001" />
+      <content type="html">Description: We are investigating a potential issue with Stackdriver Monitoring.
+
+We will provide more information by Thursday, 2020-02-27 17:45 US/Pacific.</content>
+      <updated>2020-02-28T01:14:26Z</updated>
+      <id>urn:google-cloud-status:20003.20003001</id>
+    </entry>
+  
+    <entry>
+      <title>RESOLVED: Incident 20001 - Description: A small percentage of GKE private clusters are experiencing control plane unavailability after master re-creation is triggered.</title>
+      <link href="http://status.cloud.google.com/incident/container-engine/20001#20001004" />
+      <content type="html">The issue with Google Kubernetes Engine private clusters is believed to be affecting a very small number of projects and our Engineering Team is working on it.
+
+If you have questions or are impacted, please open a case with the Support Team and we will work with you until this issue is resolved.
+
+No further updates will be provided here.</content>
+      <updated>2020-02-25T12:48:28Z</updated>
+      <id>urn:google-cloud-status:20001.20001004</id>
+    </entry>
+  
+    <entry>
+      <title>UPDATE: Incident 20001 - Description: A small percentage of GKE private clusters are experiencing control plane unavailability after master re-creation is triggered.</title>
+      <link href="http://status.cloud.google.com/incident/container-engine/20001#20001003" />
+      <content type="html">Description: A small percentage of GKE private clusters are experiencing control plane unavailability after master re-creation is triggered.
+
+Symptoms: Customers may not be able to apply changes to their private clusters or workloads when upgrading the cluster master, updating addons or rotating master IPs.
+
+Please avoid upgrading the master, updating addons or rotating master IPs for GKE private clusters.
+
+Our engineering team continues to investigate the issue.
+
+We will provide an update by Tuesday, 2020-02-25 05:00 US/Pacific with current details.
+
+Diagnosis: Customers may not be able to apply changes to private clusters or workloads if updating cluster masters, updating addons or rotating master IPs.
+
+Workaround: None at this time.
+</content>
+      <updated>2020-02-25T09:07:02Z</updated>
+      <id>urn:google-cloud-status:20001.20001003</id>
+    </entry>
+  
+    <entry>
+      <title>UPDATE: Incident 20001 - Description: A small percentage of GKE private clusters are experiencing control plane unavailability after master re-creation is triggered.</title>
+      <link href="http://status.cloud.google.com/incident/container-engine/20001#20001002" />
+      <content type="html">Description: A small percentage of GKE private clusters are experiencing control plane unavailability after master re-creation is triggered.
+
+Symptoms: Customers may not be able to apply changes to their private clusters or workloads when upgrading the cluster master, updating addons or rotating master IPs.
+
+Please avoid upgrading the master, updating addons or rotating master IPs for GKE private clusters.
+
+Our engineering team continues to investigate the issue.
+
+We will provide an update by Tuesday, 2020-02-25 01:30 US/Pacific with current details.
+
+Diagnosis: Customers may not be able to apply changes to private clusters or workloads if updating cluster masters, updating addons or rotating master IPs.
+
+Workaround: None at this time.
+</content>
+      <updated>2020-02-25T05:27:56Z</updated>
+      <id>urn:google-cloud-status:20001.20001002</id>
+    </entry>
+  
+</feed>
